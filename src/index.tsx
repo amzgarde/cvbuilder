@@ -4,10 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
+import { deepPurple, grey } from "@mui/material/colors";
 
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
+    primary: deepPurple,
+    secondary: grey,
   },
 });
 
